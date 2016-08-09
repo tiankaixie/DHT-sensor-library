@@ -63,7 +63,7 @@ void loop() {
   Serial.print(" *F\t");
   Serial.print("Heat index: ");
   Serial.print(hic);
-  Serial.print(" *C ");
+  Serial.println(" *C ");
   Serial.print(hif);
   Serial.println(" *F");
 }
